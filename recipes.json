@@ -1,0 +1,405 @@
+{
+    "iron-ingot": {
+        "time": 1,
+        "outputs": {
+            "iron-ingot": 1
+        },
+        "inputs": {
+            "iron-ore": 1
+        }
+    },
+
+    "copper-ingot": {
+        "time": 1,
+        "outputs": {
+            "copper-ingot": 1
+        },
+        "inputs": {
+            "copper-ore": 1
+        }
+    },
+
+    "high-purity-silicon": {
+        "time": 2,
+        "outputs": {
+            "high-purity-silicon": 1
+        },
+        "inputs": {
+            "silicon-ore": 2
+        }
+    },
+
+    "titanium-ingot": {
+        "time": 2,
+        "outputs": {
+            "titanium-ingot": 1
+        },
+        "inputs": {
+            "titanium-ore": 2
+        }
+    },
+
+    "stone-brick": {
+        "time": 1,
+        "outputs": {
+            "stone-brick": 1
+        },
+        "inputs": {
+            "stone": 1
+        }
+    },
+
+    "energetic-graphite": {
+        "time": 2,
+        "outputs": {
+            "energetic-graphite": 1
+        },
+        "inputs": {
+            "coal": 2
+        }
+    },
+
+    "plasma-refining": {
+        "time": 4,
+        "outputs": {
+            "hydrogen": 1,
+            "refined-oil": 2
+        },
+        "inputs": {
+            "crude-oil": 2
+        }
+    },
+
+    "graphene": {
+        "time": 3,
+        "outputs": {
+            "graphene": 2
+        },
+        "inputs": {
+            "energetic-graphite": 3,
+            "sulfuric-acid": 1
+        }
+    },
+
+    "graphene+": {
+        "time": 2,
+        "outputs": {
+            "graphene": 2,
+            "hydrogen": 1
+        },
+        "inputs": {
+            "fire-ice": 2
+        }
+    },
+
+    "plastic": {
+        "time": 3,
+        "outputs": {
+            "plastic": 1
+        },
+        "inputs": {
+            "refined-oil": 2,
+            "energetic-graphite": 1
+        }
+    },
+
+    "magnet": {
+        "time": 1.5,
+        "outputs": {
+            "magnet": 1
+        },
+        "inputs": {
+            "iron-ore": 1
+        }
+    },
+
+    "magnetic-coil": {
+        "time": 1,
+        "outputs": {
+            "magnetic-coil": 2
+        },
+        "inputs": {
+            "magnet": 2,
+            "copper-ingot": 1
+        }
+    },
+
+    "crystal-silicon": {
+        "time": 2,
+        "outputs": {
+            "crystal-silicon": 1
+        },
+        "inputs": {
+            "high-purity-silicon": 1
+        }
+    },
+
+    "crystal-silicon+": {
+        "time": 1.5,
+        "outputs": {
+            "crystal-silicon": 2
+        },
+        "inputs": {
+            "fractal-silicon": 1
+        }
+    },
+
+    "titanium-alloy": {
+        "time": 12,
+        "outputs": {
+            "titanium-alloy": 4
+        },
+        "inputs": {
+            "titanium-ingot": 4,
+            "steel": 4,
+            "sulfuric-acid": 8
+        }
+    },
+
+    "glass": {
+        "time": 2,
+        "outputs": {
+            "glass": 1
+        },
+        "inputs": {
+            "stone": 2
+        }
+    },
+
+    "diamond": {
+        "time": 2,
+        "outputs": {
+            "diamond": 1
+        },
+        "inputs": {
+            "energetic-graphite": 1
+        }
+    },
+
+    "diamond+": {
+        "time": 1.5,
+        "outputs": {
+            "diamond": 2
+        },
+        "inputs": {
+            "kimberlite-ore": 1
+        }
+    },
+
+    "x-ray-cracking": {
+        "time": 4,
+        "outputs": {
+            "hydrogen": 3,
+            "energetic-graphite": 1
+        },
+        "inputs": {
+            "refined-oil": 1,
+            "hydrogen": 2
+        }
+    },
+
+    "organic-crystal": {
+        "time": 6,
+        "outputs": {
+            "organic-crystal": 1
+        },
+        "inputs": {
+            "plastic": 2,
+            "refined-oil": 1,
+            "water": 1
+        }
+    },
+
+    "steel": {
+        "time": 3,
+        "outputs": {
+            "steel": 1
+        },
+        "inputs": {
+            "iron-ingot": 3
+        }
+    },
+
+    "electric-motor": {
+        "time": 2,
+        "outputs": {
+            "electric-motor": 1
+        },
+        "inputs": {
+            "iron-ingot": 2,
+            "gear": 1,
+            "magnetic-coil": 1
+        }
+    },
+
+    "titanium-glass": {
+        "time": 5,
+        "outputs": {
+            "titanium-glass": 2
+        },
+        "inputs": {
+            "glass": 2,
+            "titanium-ingot": 2,
+            "water": 2
+        }
+    },
+
+    "prism": {
+        "time": 2,
+        "outputs": {
+            "prism": 2
+        },
+        "inputs": {
+            "graphene": 3
+        }
+    },
+
+    "reforming-refine": {
+        "time": 4,
+        "outputs": {
+            "refined-oil": 3
+        },
+        "inputs": {
+            "refined-oil": 2,
+            "hydrogen": 1,
+            "coal": 1
+        }
+    },
+
+    "titanium-crystal": {
+        "time": 4,
+        "outputs": {
+            "titanium-crystal": 1
+        },
+        "inputs": {
+            "organic-crystal": 1,
+            "titanium-ingot": 3
+        }
+    },
+
+    "universe-matrix": {
+        "time": 15,
+        "outputs": {
+            "universe-matrix": 1
+        },
+        "inputs": {
+            "antimatter": 1,
+            "gravity-matrix": 1,
+            "information-matrix": 1,
+            "structure-matrix": 1,
+            "energy-matrix": 1,
+            "electromagnetic-matrix": 1
+        }
+    },
+
+    "mass-energy-storage": {
+        "time": 2,
+        "outputs": {
+            "antimatter": 2,
+            "hydrogen": 2
+        },
+        "inputs": {
+            "critical-photon": 2
+        }
+    },
+
+    "gravity-matrix": {
+        "time": 24,
+        "outputs": {
+            "gravity-matrix": 2
+        },
+        "inputs": {
+            "graviton-lens": 1,
+            "quantum-chip": 1
+        }
+    },
+
+    "information-matrix": {
+        "time": 10,
+        "outpus": {
+            "information-matrix": 1
+        },
+        "inputs": {
+            "processor": 2,
+            "particle-broadband": 1
+        }
+    },
+
+    "structure-matrix": {
+        "time": 8,
+        "outputs": {
+            "structure-matrix": 1
+        },
+        "inputs": {
+            "titanium-crystal": 1,
+            "diamond": 1
+        }
+    },
+
+    "energy-matrix": {
+        "time": 6,
+        "outputs": {
+            "energy-matrix": 1
+        },
+        "inputs": {
+            "hydrogen": 2,
+            "energetic-graphite": 2
+        }
+    },
+
+    "electromagnetic-matrix": {
+        "time": 3,
+        "outputs": {
+            "electromagnetic-matrix": 1
+        },
+        "inputs": {
+            "magnetic-coil": 1,
+            "circuit-board": 1
+        }
+    },
+
+    "graviton-lens": {
+        "time": 6,
+        "outputs": {
+            "graviton-lens": 1
+        },
+        "inputs": {
+            "diamond": 4,
+            "strange-matter": 1
+        }
+    },
+
+    "quantum-chip": {
+        "time": 6,
+        "outputs": {
+            "quantum-chip": 1
+        },
+        "inputs": {
+            "processor": 2,
+            "plane-filter": 2
+        }
+    },
+
+    "particle-broadband": {
+        "time": 8,
+        "outputs": {
+            "particle-broadband": 1
+        },
+        "inputs": {
+            "carbon-nanotube": 2,
+            "crystal-silicon": 2,
+            "plastic": 1
+        }
+    },
+
+    "processor": {
+        "time": 3,
+        "outputs": {
+            "processor": 1
+        },
+        "inputs": {
+            "circuit-board": 2,
+            "microcrystalline-component": 2
+        }
+    }
+}
